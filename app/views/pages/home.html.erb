@@ -1,0 +1,8 @@
+<div class="container">
+  <p class="mb-6 text-2xl font-bold">This is a react component</p>
+  <div class="">
+    <%= turbo_mount("HexColorPicker", props: {color: "#034"}, class: "mb-5") %>
+    <%= turbo_mount("CountUp", props: {start: 0, end: 100}, class: "mb-5") %>
+    <%= turbo_mount("EmojiPicker", props: {}, class: "mb-5") %>
+  </div>
+</div>
